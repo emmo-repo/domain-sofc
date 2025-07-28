@@ -1,28 +1,45 @@
+<!-- markdownlint-disable MD033 -->
+
 [![DOI](https://zenodo.org/badge/570454941.svg)](https://zenodo.org/badge/latestdoi/570454941)
 
-<!-- markdownlint-disable MD033 -->
 
 # Solid Oxide Fuel Cell Domain Ontology
 
 <!-- [![CI tests](https://github.com/emmo-repo/domain-sofc/workflows/CI%20tests/badge.svg)](https://github.com/emmo-repo/domain-sofc/actions/) -->
+
 The Solid Oxide Fuel Cell (SOFC) Domain Ontology is a specialized domain within the Elementary Multiperspective Materials Ontology [(EMMO)][1], that encompasses essential terms and relationships for systems, materials, methods, and data reletad to solid oxide fuel cells (SOFCs). It is a specialisation ontology of electrochemistry. Its primary objective is to enable the creation of linked and FAIR (Findable, Accessible, Interoperable, and Reusable) data, thereby fostering advancements in research and innovation within the realm of SOFCs. This ontology serves as a foundational resource for harmonizing SOFC knowledge representation, enhancing data interoperability, and accelerating progress in SOFC related research and development.
 
-A reference documentation is available in [html](https://emmo-repo.github.io/domain-sofc/index.html) and [pdf](https://emmo-repo.github.io/domain-sofc/sofc.pdf) formats.
+* IRI: https://w3id.org/emmo/domain/sofc
+* [Turtle file (squashed)](https://emmo-repo.github.io/domain-sofc/sofc.ttl)
+* [Reference documentation](https://emmo-repo.github.io/domain-sofc/sofc.html)
 
-### Persistent Identifiers
 
-This ontology assigns persistent machine-readable identifiers to concepts from the electrochemistry domain. These identifiers facilitate data exchange and interoperability among various tools and systems. It includes annotations to other sources of information including [DBPedia](https://www.dbpedia.org/) and [Wikidata](https://www.wikidata.org/). 
+## Solid Oxide Electrolysis Cell Domain Ontology
 
-### Standardized Nomenclature
+A SOFC is a special case of a solid oxide electrochemical cell that utilises a solid oxide material as an electrolyte to facilitate electrochemical reactions to produce electric energy. A Solid Oxide Electrolysis Cell (SOEC) produces a chemical from a electric energy.
 
-The ontology builds on standardized nomenclature for solid oxide fuel cells, relying on recognized authorities including the [IEC](https://www.electropedia.org/). IEC is the the world's leading organization that prepares and publishes International Standards for all electrical, electronic and related technologies. This consistency in naming conventions enhances collaboration and data sharing.
+The SOEC domain ontology in this repository focuses on hydrogen production.
+
+* IRI: https://w3id.org/emmo/domain/sofc/soec
+* [Turtle file (squashed)](https://emmo-repo.github.io/domain-sofc/soec.ttl)
+* [Reference documentation](https://emmo-repo.github.io/domain-sofc/soec.html)
+
 
 ## Key Features
 
 - Seamless integration with the EMMO ontology, and the EMMO-based domain ontologies for electrochemistry and batteries.
 - Provides persistent machine-readable identifiers for systems, devices, methods, datasets, and quantities for SOFCs.
-- Standardized nomenclature for SOFC entities.
+- Standardized nomenclature for SOFC/SOEC entities.
 - Facilitates data exchange and interoperability within the EMMO ecosystem.
+
+
+### Persistent Identifiers
+
+This ontology assigns persistent machine-readable identifiers to concepts from the electrochemistry domain. These identifiers facilitate data exchange and interoperability among various tools and systems. It includes annotations to other sources of information including [DBPedia](https://www.dbpedia.org/) and [Wikidata](https://www.wikidata.org/).
+
+### Standardized Nomenclature
+
+The ontology builds on standardized nomenclature for solid oxide fuel cells, relying on recognized authorities including the [IEC](https://www.electropedia.org/). IEC is the the world's leading organization that prepares and publishes International Standards for all electrical, electronic and related technologies. This consistency in naming conventions enhances collaboration and data sharing.
 
 ## Usage
 
@@ -47,9 +64,9 @@ The import structure is summarized in the following table:
 | -------------------      | ----------------- |
 | EMMO                     | 1.0.0-beta7       |
 | domain-electrochemistry  | 0.7.0-alpha       |
-| domain-battery           | 0.7.2-alpha       |   
+| domain-battery           | 0.7.2-alpha       |
 
-For simplicity, we compile the source files and other imports into a [pre-inferred ontology](inferred_version/sofc-inferred.ttl). This is the result of running the asserted source files through a semantic reasoner and includes both asserted and inferred properties in a clear graph. 
+For simplicity, we compile the source files and other imports into a [pre-inferred ontology](inferred_version/sofc-inferred.ttl). This is the result of running the asserted source files through a semantic reasoner and includes both asserted and inferred properties in a clear graph.
 
 ## Getting Started
 
@@ -97,9 +114,8 @@ This project has received support from European Union research and innovation pr
 
 * Mediate - how to acknowledge?
 * 101091687 - [MatCHMaker](http://www.he-matchmaker.eu/)
- 
+
 
 ## License
 
 The SOFC Domain Ontology is released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) license (CC BY 4.0).
-
