@@ -66,6 +66,16 @@ The import structure is summarized in the following table:
 | domain-electrochemistry  | 0.7.0-alpha       |
 | domain-battery           | 0.7.2-alpha       |
 
+## Imported ontologies
+
+Version dependencies on imported ontologies:
+
+| Version | [EMMO]      | [ECHO]      | [CHEMS]     | [Battery]   |
+|---------|-------------|-------------|-------------|-------------|
+| 0.0.1   | 1.0.0-beta7 | 0.7.0-alpha | -           | 0.7.2-alpha |
+| 0.0.2   | 1.0.0       | 0.30.0-beta | 0.12.2-beta | 0.18.5-beta |
+
+
 For simplicity, we compile the source files and other imports into a [pre-inferred ontology](inferred_version/sofc-inferred.ttl). This is the result of running the asserted source files through a semantic reasoner and includes both asserted and inferred properties in a clear graph.
 
 ## Getting Started
@@ -119,3 +129,10 @@ This project has received support from European Union research and innovation pr
 ## License
 
 The SOFC Domain Ontology is released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) license (CC BY 4.0).
+
+
+
+[EMMO]: https://github.com/emmo-repo/EMMO
+[ECHO]: https://github.com/emmo-repo/domain-electrochemistry
+[CHEMS]: https://github.com/emmo-repo/domain-chemical-substance
+[CHAMEO]: https://github.com/emmo-repo/domain-characterisation-methodology
