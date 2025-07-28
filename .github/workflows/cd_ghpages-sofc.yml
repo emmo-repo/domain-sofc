@@ -1,0 +1,54 @@
+name: Deploy on GitHub Pages
+on:
+  push:
+    branches: [master]
+
+env:
+  ONTOLOGY_NAME: sofc
+  ONTOLOGY_IRI: https://w3id.org/emmo/domain/sofc
+
+permissions:
+  contents: write
+
+
+jobs:
+  deploy-on-ghpages:
+    #concurrency: ci-${{ github.ref }}  # Recommended if you intend to make multiple deployments in quick succession.
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.11
+
+    - name: Install EMMOntoPy
+      run: |
+        pip install --upgrade pip
+        pip install EMMOntoPy
+
+    - name: Create squashed and inferred ontology
+      run: |
+        mkdir build
+        ontoconvert \
+            -sawe \
+            --base-iri="${ONTOLOGY_IRI}#" \
+            --iri="${ONTOLOGY_IRI}" \
+            ${ONTOLOGY_NAME}.ttl \
+            build/${ONTOLOGY_NAME}.ttl
+        ontoconvert \
+            -sawe \
+            --base-iri="${ONTOLOGY_IRI}#" \
+            --iri="${ONTOLOGY_IRI}" \
+            --infer=HermiT \
+            ${ONTOLOGY_NAME}.ttl \
+            build/${ONTOLOGY_NAME}-inferred.ttl
+
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: build
+        branch: gh-pages
