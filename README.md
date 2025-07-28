@@ -10,7 +10,7 @@
 The Solid Oxide Fuel Cell (SOFC) Domain Ontology is a specialized domain within the Elementary Multiperspective Materials Ontology [(EMMO)][1], that encompasses essential terms and relationships for systems, materials, methods, and data reletad to solid oxide fuel cells (SOFCs). It is a specialisation ontology of electrochemistry. Its primary objective is to enable the creation of linked and FAIR (Findable, Accessible, Interoperable, and Reusable) data, thereby fostering advancements in research and innovation within the realm of SOFCs. This ontology serves as a foundational resource for harmonizing SOFC knowledge representation, enhancing data interoperability, and accelerating progress in SOFC related research and development.
 
 * IRI: https://w3id.org/emmo/domain/sofc
-* Asserted ontology (squashed): [sofc.ttl](https://emmo-repo.github.io/domain-sofc/sofc.ttl)
+* Asserted ontology: [sofc.ttl](https://emmo-repo.github.io/domain-sofc/sofc.ttl)
 * Inferred ontology: [sofc-inferred.ttl](https://emmo-repo.github.io/domain-sofc/sofc-inferred.ttl)
 * [Reference documentation](https://emmo-repo.github.io/domain-sofc/sofc.html)
 
@@ -22,7 +22,8 @@ A SOFC is a special case of a solid oxide electrochemical cell that utilises a s
 The SOEC domain ontology in this repository focuses on hydrogen production.
 
 * IRI: https://w3id.org/emmo/domain/sofc/soec
-* [Turtle file (squashed)](https://emmo-repo.github.io/domain-sofc/soec.ttl)
+* Asserted ontology: [soec.ttl](https://emmo-repo.github.io/domain-sofc/soec.ttl)
+* Inferred ontology: [soec-inferred.ttl](https://emmo-repo.github.io/domain-sofc/soec-inferred.ttl)
 * [Reference documentation](https://emmo-repo.github.io/domain-sofc/soec.html)
 
 
