@@ -1,4 +1,4 @@
-name: Deploy on GitHub Pages
+name: Deploy SOFC on GitHub Pages
 on:
   push:
     branches: [master]
