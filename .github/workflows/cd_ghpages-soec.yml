@@ -1,15 +1,16 @@
 name: Deploy SOEC on GitHub Pages
-on:
-  push:
-    branches: [master]
 
 env:
   ONTOLOGY_NAME: soec
   ONTOLOGY_IRI: https://w3id.org/emmo/domain/sofc/soec
+  BRANCH: ${{ github.ref_name }}
+
+on:
+  push:
+    branches: [${BRANCH}]
 
 permissions:
   contents: write
-
 
 jobs:
   deploy-on-ghpages:
