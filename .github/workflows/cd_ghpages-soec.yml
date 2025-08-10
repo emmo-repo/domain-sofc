@@ -33,6 +33,7 @@ jobs:
     - name: Create squashed and inferred ontology
       run: |
         mkdir build
+        cp README.md build/.
         ontoconvert \
             -sawe \
             --base-iri="${ONTOLOGY_IRI}#" \

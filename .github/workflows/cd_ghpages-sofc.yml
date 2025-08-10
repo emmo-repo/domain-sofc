@@ -33,6 +33,12 @@ jobs:
     - name: Create squashed and inferred ontology
       run: |
         mkdir build
+        cp README.md build/.
+        ontoconvert \
+            -saw \
+            --namespace="emmo:https://w3id.org/emmo#" \
+            ${ONTOLOGY_NAME}-dependencies.ttl \
+            build/${ONTOLOGY_NAME}-dependencies.ttl
         ontoconvert \
             -sawe \
             --base-iri="${ONTOLOGY_IRI}#" \

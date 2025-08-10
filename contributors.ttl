@@ -1,0 +1,38 @@
+@prefix : <https://w3id.org/emmo/doamin/sofc#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix emmo: <https://w3id.org/emmo#> .
+
+<https://w3id.org/emmo/domain/sofc/contributors> rdf:type owl:Ontology ;
+    owl:versionIRI <https://w3id.org/emmo/domain/sofc/0.0.1/contributors> ;
+    owl:imports <https://w3id.org/emmo/domain/sofc/0.0.1/dependencies> ;
+    dcterms:abstract "People and organisations who has contributed to the development of the SOFC Domain Ontology."@en ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+    dcterms:publisher <https://emmc.eu> ;
+    dcterms:title "Contributors"@en ;
+    owl:versionInfo "0.0.1" ;
+    foaf:mbox <mailto:emmo@emmc.eu> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+:DidrikSmabraten rdf:type owl:NamedIndividual ;
+    emmo:EMMO_e117f976_7a5d_4508_bf85_9226dca58e1f "https://orcid.org/0000-0002-7155-7178"^^xsd:anyURI ;
+    skos:altLabel "DidrikSmabraten" ;
+    skos:prefLabel "Didrik René Småbråten" ;
+    foaf:name "Didrik René Småbråten" ;
+    foaf:workplaceHomepage <https://www.sintef.no/en/> .
+
+:PatriceTochon rdf:type owl:NamedIndividual ;
+    skos:altLabel "PatriceTochon" ;
+    skos:prefLabel "Patrice Tochon" ;
+    foaf:name "Patrice Tochon" ;
+    foaf:workplaceHomepage <https://www.genvia.com/> .

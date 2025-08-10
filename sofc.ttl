@@ -10,13 +10,16 @@
 @base <https://w3id.org/emmo/domain/sofc#> .
 
 <https://w3id.org/emmo/domain/sofc> rdf:type owl:Ontology ;
-                                      owl:versionIRI <https://w3id.org/emmo/domain/sofc/0.0.1> ;
-                                      owl:imports <https://w3id.org/emmo/domain/battery/0.7.2-alpha> ;
-                                      dcterms:contributor "Jesper Friis, SINTEF"@en ;
-                                      dcterms:creator " Francesca L. Bleken, SINTEF"@en ,
-                                                      "Didrik Rene Simensbråten, SINTEF"@en ;
-                                      dcterms:title "A domain ontology for solid oxide fuel cells"@en ;
-                                      owl:versionInfo "0.01"@en .
+    owl:versionIRI <https://w3id.org/emmo/domain/sofc/0.0.1> ;
+    owl:imports <https://w3id.org/emmo/domain/sofc/0.0.1/contributers> ;
+    dcterms:contributor :PatriceTochon ;
+    dcterms:creator :DidrikSmabraten , emmo:FrancescaBleken , emmo:JesperFriis ;
+    dcterms:mediator emmo:EMMC_ASBL ;
+    dcterms:title "A domain ontology for solid oxide fuel cells"@en ;
+    dcterms:publisher <https://he-matchmaker.eu> ;
+    vann:preferredNamespacePrefix "sofc" ;
+    vann:preferredNamespaceUri "https://w3id.org/emmo/domain/sofc" ;
+    owl:versionInfo "0.01"@en .
 
 #################################################################
 #    Annotation properties
