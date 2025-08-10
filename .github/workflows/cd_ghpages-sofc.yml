@@ -58,3 +58,5 @@ jobs:
       with:
         folder: build
         branch: gh-pages
+        clean: false
+        single-commit: true
