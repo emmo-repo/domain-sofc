@@ -11,7 +11,8 @@
 
 <https://w3id.org/emmo/domain/sofc/contributors> rdf:type owl:Ontology ;
     owl:versionIRI <https://w3id.org/emmo/domain/sofc/0.0.1/contributors> ;
-    owl:imports <https://w3id.org/emmo/domain/sofc/0.0.1/dependencies> ;
+    #owl:imports <https://w3id.org/emmo/domain/sofc/0.0.1/dependencies> ;
+    owl:imports <https://w3id.org/emmo/domain/sofc/dependencies> ;
     dcterms:abstract "People and organisations who has contributed to the development of the SOFC Domain Ontology."@en ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
     dcterms:publisher <https://emmc.eu> ;
