@@ -1,15 +1,18 @@
 @prefix : <https://w3id.org/emmo/domain/sofc/soec#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix echo: <https://w3id.org/emmo/domain/electrochemistry#> .
-@prefix emmo: <https://w3id.org/emmo#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix chems: <https://w3id.org/emmo/domain/chemical-substance#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix echo: <https://w3id.org/emmo/domain/electrochemistry#> .
+@prefix emmo: <https://w3id.org/emmo#> .
 @base <https://w3id.org/emmo/domain/sofc/soec#> .
 
 <https://w3id.org/emmo/domain/sofc/soec> rdf:type owl:Ontology ;
