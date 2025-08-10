@@ -64,8 +64,7 @@ Their import structure for different versions of SOFC and SOEC are summarised in
 
 | Version | [EMMO]      | [ECHO]      | [CHEMS]     | [Battery]   |
 |---------|-------------|-------------|-------------|-------------|
-| 0.0.1   | 1.0.0-beta7 | 0.7.0-alpha | -           | 0.7.2-alpha |
-| 0.0.2   | 1.0.0       | 0.30.0-beta | 0.12.2-beta | 0.18.5-beta |
+| 0.0.1   | 1.0.0       | 0.30.0-beta | -           | 0.18.5-beta |
 
 Squashed and inferred versions of the SOFC and SOEC domain ontologies are published on [GitHub Pages](https://emmo-repo.github.io/domain-sofc).
 
