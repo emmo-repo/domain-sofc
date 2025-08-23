@@ -16,8 +16,8 @@
 @base <https://w3id.org/emmo/domain/sofc/soec#> .
 
 <https://w3id.org/emmo/domain/sofc/soec> rdf:type owl:Ontology ;
-                                          owl:versionIRI <https://w3id.org/emmo/domain/sofc/0.0.1/soec> ;
-                                          owl:imports <https://w3id.org/emmo/domain/sofc/0.0.1> ;
+                                          owl:versionIRI <https://w3id.org/emmo/domain/sofc/0.6.2/soec> ;
+                                          owl:imports <https://w3id.org/emmo/domain/sofc/0.6.2> ;
                                           dcterms:abstract "A domain ontology for Solid Oxide Electrolysis Cells (SOECs) with focus on hydrogen production."@en ;
                                           dcterms:contributor :PatriceTochon ;
                                           dcterms:creator emmo:FrancescaBleken ,
@@ -28,7 +28,7 @@
                                           dcterms:title "Solid Oxide Electrolysis Cell (SOEC) domain ontology"@en ;
                                           vann:preferredNamespacePrefix "soec" ;
                                           vann:preferredNamespaceUri "https://w3id.org/emmo/domain/sofc/soec" ;
-                                          owl:versionInfo "0.0.1"@en .
+                                          owl:versionInfo "0.6.2"@en .
 
 #################################################################
 #    Classes

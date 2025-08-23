@@ -62,9 +62,12 @@ The SOFC and SOEC Domain Ontologies are official EMMO domain ontologies.
 
 Their import structure for different versions of SOFC and SOEC are summarised in the following table:
 
-| Version | [EMMO]      | [ECHO]      | [CHEMS]     | [Battery]   |
-|---------|-------------|-------------|-------------|-------------|
-| 0.0.1   | 1.0.0       | 0.30.0-beta | -           | 0.18.5-beta |
+| Version | [EMMO] | [ECHO]      | [CHEMS]     | [Battery]   |
+|---------|--------|-------------|-------------|-------------|
+| 0.0.1   | 1.0.0  | 0.30.0-beta | -           | 0.18.5-beta |
+| 0.6.2   | 1.0.0  | 0.30.0-beta | 0.12.2-beta | 0.18.5-beta |
+
+The SOEC domain ontology furthermore imports SOFC. This is not included in the above table, since the ontologies are maintained in the same repository and will always have the same version.
 
 Squashed and inferred versions of the SOFC and SOEC domain ontologies are published on [GitHub Pages](https://emmo-repo.github.io/domain-sofc).
 

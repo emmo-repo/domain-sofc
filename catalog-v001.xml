@@ -2,9 +2,9 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public" xml:base="">
 
-        <uri name="https://w3id.org/emmo/domain/sofc/0.0.1"              uri="./sofc.ttl"/>
-        <uri name="https://w3id.org/emmo/domain/sofc/0.0.1/soec"         uri="./soec.ttl"/>
-        <uri name="https://w3id.org/emmo/domain/sofc/0.0.1/contributors" uri="./contributors.ttl"/>
+        <uri name="https://w3id.org/emmo/domain/sofc/0.6.2"              uri="./sofc.ttl"/>
+        <uri name="https://w3id.org/emmo/domain/sofc/0.6.2/soec"         uri="./soec.ttl"/>
+        <uri name="https://w3id.org/emmo/domain/sofc/0.6.2/contributors" uri="./contributors.ttl"/>
 
     </group>
 </catalog>
