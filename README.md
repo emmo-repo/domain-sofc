@@ -1,11 +1,10 @@
 <!-- markdownlint-disable MD033 -->
 
-[![DOI](https://zenodo.org/badge/570454941.svg)](https://zenodo.org/badge/latestdoi/570454941)
-
-
 # Solid Oxide Fuel Cell Domain Ontology
-
-<!-- [![CI tests](https://github.com/emmo-repo/domain-sofc/workflows/CI%20tests/badge.svg)](https://github.com/emmo-repo/domain-sofc/actions/) -->
+[![DOI](https://zenodo.org/badge/570454941.svg)](https://zenodo.org/badge/latestdoi/570454941)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![CI tests](https://github.com/emmo-repo/domain-sofc/actions/workflows/ci_tests.yml/badge.svg)](https://github.com/emmo-repo/domain-sofc/actions/workflows/ci_tests.yml)
+[![GitHub release](https://img.shields.io/github/v/release/emmo-repo/domain-sofc)](https://emmo-repo.github.io/)
 
 The Solid Oxide Fuel Cell (SOFC) Domain Ontology is a specialized domain within the Elementary Multiperspective Materials Ontology [(EMMO)][1], that encompasses essential terms and relationships for systems, materials, methods, and data reletad to solid oxide fuel cells (SOFCs). It is a specialisation ontology of electrochemistry. Its primary objective is to enable the creation of linked and FAIR (Findable, Accessible, Interoperable, and Reusable) data, thereby fostering advancements in research and innovation within the realm of SOFCs. This ontology serves as a foundational resource for harmonizing SOFC knowledge representation, enhancing data interoperability, and accelerating progress in SOFC related research and development.
 
